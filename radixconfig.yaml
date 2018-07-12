@@ -18,5 +18,5 @@ spec:
     - name: scenario1-1
       src: "."
       ports:
-       - 3000
+       - 8080
       public: true
