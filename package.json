@@ -1,0 +1,19 @@
+{
+  "name": "radix-test-scenario-1",
+  "version": "0.0.1",
+  "description": "A Radix Scenario 1 App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Lars Kaare Skjorestad",
+  "license": "ISC",
+  "dependencies": {
+    "date-format": "^1.2.0",
+    "express": "^4.16.3",
+    "npm": "^6.1.0",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {}
+}

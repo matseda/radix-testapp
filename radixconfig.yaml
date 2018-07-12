@@ -1,0 +1,22 @@
+apiVersion: radix.equinor.com/v1
+kind: RadixApplication
+metadata:
+  name: radix-scenario-1-1
+spec:
+  environments:
+    - name: development
+      authorization:
+      - role: RadixAppAdmin
+        groups:
+        - "g_radix_platform_user"
+    - name: production
+      authorization:
+      - role: RadixAppAdmin
+        groups:
+        - "g_radix_platform_user"
+  components:
+    - name: scenario1-1
+      src: "."
+      ports:
+       - 3000
+      public: true
