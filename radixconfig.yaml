@@ -1,21 +1,21 @@
-apiVersion: radix.equinor.com/v1
-kind: RadixApplication
+apiVersion: "radix.equinor.com/v1"
+kind: "RadixApplication"
 metadata:
-  name: radix-testapp
+  name: "radix-testapp"
 spec:
   environments:
-    - name: development
+    - name: "development"
       authorization:
-      - role: RadixAppAdmin
+      - role: "RadixAppAdmin"
         groups:
         - "g_radix_platform_user"
-    - name: production
+    - name: "production"
       authorization:
-      - role: RadixAppAdmin
+      - role: "RadixAppAdmin"
         groups:
         - "g_radix_platform_user"
   components:
-    - name: scenario1-1
+    - name: "scenario1-1"
       src: "."
       ports:
        - 8080
