@@ -8,6 +8,6 @@ RUN npm install --production
 
 COPY index.js /usr/src/app/
 
-EXPOSE 8008
+EXPOSE 3000
 
 CMD [ "npm", "start" ]

@@ -15,8 +15,8 @@ spec:
         groups:
         - "g_radix_platform_user"
   components:
-    - name: "scenario1-1"
+    - name: "frontend"
       src: "."
       ports:
-       - 8080
+       - 3000
       public: true
