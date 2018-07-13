@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 
-var port = normalizePort(process.env.PORT || '3000');
+var port = normalizePort(process.env.PORT || '80');
 var dFormat = require('date-format');
 
 app.get('/', (req, res) => {
