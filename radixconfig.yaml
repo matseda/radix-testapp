@@ -18,5 +18,5 @@ spec:
     - name: "frexapp"
       src: "."
       ports:
-       - 3000
+       - 80
       public: true
