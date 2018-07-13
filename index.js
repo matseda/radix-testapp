@@ -8,7 +8,7 @@ var dFormat = require('date-format');
 app.get('/', (req, res) => {
   var timeStr = dFormat('hh:mm:ss', new Date());
   console.log(timeStr + " - " + req.host + " - " + req.ip + ' - ' + req.originalUrl);
-  res.status(200).send('Hallæ verden, her ern ' + timeStr);
+  res.status(200).send('Halla verden, her ern ' + timeStr);
 });
 
 app.listen(port, () => console.log('Scenario-1 app listening on port ' + port));
